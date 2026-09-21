@@ -12,7 +12,7 @@
 
 ```bash
 sudo pacman -S --needed git
-git clone https://github.com/igor3494/berserk-dots.git
+git clone https://github.com/Igor3494/berserk-dots.git
 cd berserk-dots
 ```
 

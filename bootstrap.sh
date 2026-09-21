@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Установка одной командой: скачивает репозиторий и запускает установщик.
 # Пример (адрес подставь свой):
-#   bash <(curl -fsSL https://raw.githubusercontent.com/igor3494/berserk-dots/main/bootstrap.sh)
+#   bash <(curl -fsSL https://raw.githubusercontent.com/Igor3494/berserk-dots/main/bootstrap.sh)
 # Не запускай чужие скрипты вслепую: сначала можно открыть файл по ссылке и прочитать.
 set -euo pipefail
 
-REPO_URL="https://github.com/igor3494/berserk-dots.git"
+REPO_URL="https://github.com/Igor3494/berserk-dots.git"
 DIR="${BERSERK_DIR:-$HOME/berserk-dots}"
 
-if [[ $REPO_URL == *igor3494* ]]; then
+if [[ $REPO_URL == *Igor3494* ]]; then
   echo "В bootstrap.sh не указан адрес репозитория (REPO_URL)."; exit 1
 fi
 

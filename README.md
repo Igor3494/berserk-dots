@@ -15,7 +15,8 @@
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux">
   <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=hyprland&logoColor=white" alt="Hyprland">
   <img src="https://img.shields.io/badge/Noctalia-v5-FFF59B?style=for-the-badge&labelColor=FFF59B" alt="Noctalia">
-  <img src="https://img.shields.io/github/license/igor3494/berserk-dots?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/license/Igor3494/berserk-dots?style=for-the-badge" alt="License">
+  <a href="https://github.com/Igor3494/berserk-dots/actions"><img src="https://github.com/Igor3494/berserk-dots/actions/workflows/lint.yml/badge.svg" alt="Проверка скриптов"></a>
 </p>
 
 <p align="center"><img src="docs/desktop.png" alt="Рабочий стол" width="90%"></p>
@@ -29,7 +30,7 @@
 Нужен Arch Linux с интернетом и обычный пользователь с `sudo`.
 
 ```bash
-git clone https://github.com/igor3494/berserk-dots.git
+git clone https://github.com/Igor3494/berserk-dots.git
 cd berserk-dots
 ./install.sh --dry-run    # посмотреть, что будет сделано, ничего не меняя
 ./install.sh              # меню выбора модулей
@@ -38,7 +39,7 @@ cd berserk-dots
 Или одной командой:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/igor3494/berserk-dots/main/bootstrap.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Igor3494/berserk-dots/main/bootstrap.sh)
 ```
 
 В меню вводи номера модулей (вкл/выкл), `a` выбрать всё, `n` снять всё, Enter начать.
