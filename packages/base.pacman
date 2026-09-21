@@ -1,0 +1,15 @@
+# Базовая система
+git
+base-devel
+networkmanager
+bluez
+bluez-utils
+pipewire
+pipewire-pulse
+wireplumber
+playerctl
+libnotify
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji

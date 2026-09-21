@@ -1,0 +1,13 @@
+[bar.default]
+position = "top"
+thickness = 38
+margin_edge = 8
+margin_ends = 16
+radius = 8
+background_opacity = 0.30
+border = "primary"
+border_width = 1.0
+capsule = false
+start = ["launcher", "workspaces", "audio_visualizer"]
+center = ["clock"]
+end = ["media", "sysmon", "keyboard_layout", "tray", "network", "bluetooth", "volume", "battery", "notifications", "session"]

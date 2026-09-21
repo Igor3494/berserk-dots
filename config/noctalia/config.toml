@@ -1,0 +1,7 @@
+[theme]
+mode = "dark"
+source = "custom"
+custom_palette = "BerserkMono"
+
+[desktop_widgets]
+enabled = true

@@ -1,0 +1,6 @@
+add_newline = false
+format = "$directory$character"
+
+[character]
+success_symbol = "[❯](bold #c81020)"
+error_symbol = "[❯](bold #e5484d)"

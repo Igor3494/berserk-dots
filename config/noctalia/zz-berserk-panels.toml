@@ -1,0 +1,6 @@
+[shell.panel]
+transparency_mode = "soft"
+borders = true
+shadow = true
+control_center_placement = "floating"
+floating_offset = 8

@@ -1,0 +1,44 @@
+# медиа (авторские права) — кроме скриншотов в docs/
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.gif
+*.jpg
+*.jpeg
+*.png
+!docs/*.png
+!docs/*.jpg
+
+# личное
+.env
+*.pem
+id_*
+*.key
+.zsh_history
+*.bak
+.config-backup-*/
+
+# браузеры и мессенджеры: профили, пароли, куки, история
+.mozilla/
+firefox/
+*.sqlite
+logins.json
+key4.db
+key3.db
+cert9.db
+cookies*
+Login Data
+Web Data
+Local State
+BraveSoftware/
+google-chrome/
+chromium/
+discord/
+Telegram*/
+.ssh/
+.gnupg/
+.netrc
+.bash_history
+docs/explicit-packages.txt
+docs/hyprland.lua.reference

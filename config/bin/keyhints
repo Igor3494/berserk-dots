@@ -1,0 +1,2 @@
+#!/bin/sh
+exec fzf --no-sort --layout=reverse --border --prompt="Поиск > " --header="Печатай для поиска · Esc: закрыть" < "$HOME/.config/hypr/keybinds.txt"

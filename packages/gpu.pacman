@@ -1,0 +1,8 @@
+# NVIDIA (гибридные ноутбуки AMD + NVIDIA)
+nvidia-open
+nvidia-utils
+nvidia-prime
+mesa
+mesa-utils
+vulkan-radeon
+linux-headers
